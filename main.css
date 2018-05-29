@@ -78,11 +78,15 @@ body * {
 
 .images-desktop img,
 .images-mobile img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .images-mobile img {
   width: 100%;
+}
+
+.images-desktop img {
+  max-width: 550px;
 }
 
 .grey,
@@ -116,5 +120,7 @@ a.button {
   .content {
     padding: 40px;
     width: 50%;
+    max-width: 400px;
+    margin: 0 auto;
   }
 }
