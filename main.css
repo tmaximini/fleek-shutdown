@@ -95,6 +95,10 @@ body * {
   color: #999;
 }
 
+.nobreak {
+  white-space: nowrap;
+}
+
 a.button {
   background-color: black;
   color: white;
