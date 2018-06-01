@@ -99,6 +99,11 @@ body * {
   white-space: nowrap;
 }
 
+.bottom-links a {
+  float: left;
+  margin-right: 15px;
+}
+
 a.button {
   background-color: black;
   color: white;
